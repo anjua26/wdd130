@@ -33,10 +33,9 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    /* 1️⃣ */
     padding: 1rem;
-    background-color: #d8bc9f;
-    color: oklab(24.776% 0 -0.00003);
+    background-color: rgb(216, 188, 159);
+    color: rgb(33, 33, 33);
     text-align: center;
 }
 
@@ -47,6 +46,6 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px dashed #000;
+    border-top: 1px dashed rgb(0, 0, 0);
     text-align: center;
 }
