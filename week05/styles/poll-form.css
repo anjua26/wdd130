@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+    font: georgia;
+    max-width: 900px;
+    text-align: center;
+    padding: 5px;
+}
+
+form {
+    max-width: 650px;
+    background-color: rgb(188, 188, 188);
+    display: grid;
+    border: solid 1px rgb(52, 49, 49);
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .5rem;
+    padding: 5px;
+    margin: 10px;
+    font: Georgia;
+}
+
+legend {
+    color: darkblue;
+    font: Times;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.placeslived {
+    text-align: center;
+}
+
+input,
+select,
+textarea {
+    padding: 0.4rem;
+    font-size: 1.05rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(62, 16, 201);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #4e4e4e;
+    border-top: 1px dotted #0c0b0b;
+}
