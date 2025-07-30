@@ -1,0 +1,43 @@
+button {
+    margin: 1rem;
+    background-color: rgb(62, 16, 201);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgb(211, 209, 209);
+    border: solid 1px black;
+    font: times;
+}
+
+img {
+    align-self: center;
+    padding: 4px;
+    margin-left: 80px;
+}
+
+header {
+    color: rgb(9, 9, 159);
+    font: georgia;
+    padding: .5rem;
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}

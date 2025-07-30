@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <label for="question1">What does the acronymn HTML stand for?</label>
+            <input type="text" id="q1" name="q1">
+            <label for="question2">What are some common CSS best practices, describe at least 2.</label>
+            <textarea id="q2" name="q2"></textarea>
+            <label for="question3">Which of these are correct?</label>
+            <select id="q3" name="q3">
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="a1">flex = display</option>
+                <option value="a2">display = flex</option>
+                <option value="a3">display; flex</option>
+                <option value="a4">display: flex</option>
+            </select>
+            <label for="question4">What is the padding value for the top of this declaration?</label>
+            <img src="images/padding_quiz_example.png" alt="padding example" max-width="200">
+            <input type="number" id="q4" name="q4">
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+
+</html>
