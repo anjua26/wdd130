@@ -41,3 +41,7 @@ footer {
     width: 840px;
     margin: 0 auto;
 }
+
+input {
+    padding: 3px;
+}
