@@ -212,7 +212,7 @@ article {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-legend {
+.legend {
     grid-column: 1/5;
     text-align: center;
     font-size: larger;
