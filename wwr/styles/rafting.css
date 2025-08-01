@@ -63,8 +63,15 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
+    margin: 12px;
     padding: 8px;
+}
+
+.contact_info {
+    margin-left: 0px;
+    margin: 0px;
+    padding: 0;
+    color: var(--primary-color);
 }
 
 .socialmedia a {
@@ -81,7 +88,7 @@ article {
     height: auto;
 }
 
-h1 {
+.about_us_main_title {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -92,6 +99,39 @@ h1 {
     color: #000000;
 }
 
+.company_contact_title {
+    margin: 10px;
+    margin-left: 0;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.company_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 60px 30px 30px 150px;
+}
+
+iframe {
+    grid-area: 1/ 2/ 5/ 3;
+    margin-top: 10px;
+}
+
+.employee_img_set {
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    max-width: 700px;
+    background-color: #214e34;
+}
+
+.employee_img {
+    width: 200px;
+    height: auto;
+    padding: 15px
+}
+
 article {
     position: absolute;
     top: 350px;
@@ -99,7 +139,6 @@ article {
     opacity: 0.95;
     background-color: var(--accent2-color);
     color: #000000;
-
 }
 
 .hero article img {
@@ -152,7 +191,77 @@ article {
 }
 
 .socialmedia_img {
-    width: 30px;
+    width: 35px;
     height: auto;
     padding: 2px;
+}
+
+.wireframe_link {
+    font: var(--body-font);
+    align-content: center;
+    font-size: medium;
+    color: #2380b2;
+    padding-bottom: 17px;
+}
+
+.contact_form {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+legend {
+    grid-column: 1/5;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 20px;
+}
+
+.name_contact {
+    grid-column: 2/3;
+}
+
+.purpose_contact {
+    grid-column: 2/3;
+}
+
+.message_contact {
+    grid-column: 2/4;
+}
+
+.subscribe_contact {
+    grid-column: 2/4;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+input {
+    margin: 2px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+button {
+    margin: 1rem;
+    margin-left: 150px;
+    background-color: rgb(62, 16, 201);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.1rem;
+    grid-column: 2/4;
+    align-items: center;
+    width: 150px;
+}
+
+.checkbox_contact {
+    width: 20px;
+    height: auto;
+}
+
+button:hover {
+    background-color: rgb(44, 135, 44);
 }
