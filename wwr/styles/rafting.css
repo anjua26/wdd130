@@ -3,7 +3,7 @@
 :root {
     --primary-color: #3d2b2f;
     --secondary-color: #2380b2;
-    --accent1-color: #b9a394;
+    --accent1-color: #a28b7c;
     --accent2-color: #214e34;
     --heading-font: "Cormorant Garamond", serif;
     --body-font: "Nunito Sans", sans-serif;
@@ -148,6 +148,50 @@ article {
     margin-top: 25px;
 }
 
+.hero_home_text {
+    top: 150px;
+    font-size: x-large;
+    align-self: center;
+    position: absolute;
+    text-align: center;
+}
+
+.call_to_action {
+    margin: 20px;
+    padding: 10px;
+    font-size: large;
+    background-color: var(--secondary-color);
+    border-radius: 0.35rem;
+}
+
+.call_to_action_link {
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 140px;
+    background-color: var(--primary-color);
+    color: #e8e8e8;
+    border: 1.5rem;
+    border-radius: .5rem;
+    padding: 5px;
+}
+
+.trips_call_to_action {
+    margin: 100px;
+    font-size: xx-large;
+    position: absolute;
+}
+
+.home_page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.home_button {
+    margin-left: 100px;
+
+}
+
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -169,8 +213,45 @@ article {
     grid-template-columns: repeat(5, 1fr);
 }
 
+.adventure_home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.adventure_trips {
+    display: grid;
+    grid-template-columns: 400px;
+    background-color: var(--primary-color)
+}
+
+.home_img {
+    max-width: 350px;
+    height: auto;
+}
+
+.trips_img {
+    max-width: 800px;
+    height: auto;
+    grid-column: 1/4;
+}
+
+.trips2_img {
+    max-width: 300px;
+    height: auto;
+}
+
+.trips3_img {
+    max-width: 300px;
+    height: auto;
+}
+
 .adventure_title {
     grid-column: 1/6;
+    text-align: center;
+}
+
+.trips_title {
+    grid-column: 1/3;
     text-align: center;
 }
 
@@ -178,6 +259,26 @@ article {
     width: 10rem;
     height: auto;
     padding: 5px;
+}
+
+table {
+    border: solid 2px grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    color: black;
+    background-color: var(--secondary-color);
+    border-radius: .5rem;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+caption {
+    font-size: xx-large;
 }
 
 .footer {
@@ -210,6 +311,7 @@ article {
     padding: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5px;
 }
 
 .legend {
